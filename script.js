@@ -9,9 +9,10 @@ function toggleVideoStatus() {
   return true;
 }
 
-
-function
-
+// update play/puse icon
+function updatePlayIcon() {
+  return true;
+}
 
 // Event Listeners
 video.addEventListener('click', toggleVideoStatus);
