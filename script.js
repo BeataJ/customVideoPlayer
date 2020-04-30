@@ -4,6 +4,15 @@ const stop = document.getElementById('stop');
 const progress = document.getElementById('progress');
 const timestamp = document.getElementById('timestamp');
 
+// Play & pause video
+function toggleVideoStatus() {
+  return true;
+}
+
+
+function
+
+
 // Event Listeners
 video.addEventListener('click', toggleVideoStatus);
 video.addEventListener('pause', updatePlayIcon);
