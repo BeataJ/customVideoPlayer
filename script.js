@@ -6,13 +6,15 @@ const timestamp = document.getElementById('timestamp');
 
 // Play & pause video
 function toggleVideoStatus() {
-  return true;
+  if (video.paused) {
+    video.play();
+  } else {
+    video.pause();
+  }
 }
 
 // update play/puse icon
-function updatePlayIcon() {
-  return true;
-}
+function updatePlayIcon() {}
 
 // update progress & timestamp
 function updateProgress() {
